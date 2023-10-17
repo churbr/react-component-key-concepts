@@ -35,7 +35,7 @@ function App() {
       </header>
       <ul id="concepts">
         {concepts.map((item, index) => {
-          return <ListItem key={index} value={item} />;
+          return <ListItem key={index} image={item.image} title={item.title} description={item.description} />;
         })}
       </ul>
     </div>

@@ -1,9 +1,9 @@
 const ListItem = (props) => {
   return (
     <li className="concept">
-      <img src={props.value.image} alt={props.value.title} />
-      <h2>{props.value.title}</h2>
-      <p>{props.value.description}</p>
+      <img src={props.image} alt={props.title} />
+      <h2>{props.title}</h2>
+      <p>{props.description}</p>
     </li>
   );
 };
